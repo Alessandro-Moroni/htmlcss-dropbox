@@ -135,11 +135,11 @@ h2{
 
 .table-user{
   justify-content: space-between;
-  border: 1px solid black;
+  
 }
 
 .table-subscription{
-  border: 1px solid red;
+  border: 1px solid black;
   width: 30%;
   flex-direction: column;
   
@@ -147,7 +147,7 @@ h2{
 
 .user{
   text-align: center;
-  border: 1px solid green;
+  border: 1px solid black;
   height: 40px;
   line-height: 40px;
   font-size: 1rem;
@@ -199,4 +199,52 @@ h2{
 .table-button:hover{
   background-color: rgb(89, 134, 206);
 
+}
+
+/* section team */
+
+.section-team{
+  margin: 50px auto;
+  height: 260px;
+  width: 1000px;
+  max-width: 98%;
+  border: 1px solid black;
+  font-size: 1rem;
+}
+
+.section-team .logo-team{
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid black;
+  font-size: 0.9rem;
+}
+
+.tab-team{
+  height: 220px;
+  padding: 25px;
+
+}
+
+.tab-up{
+  height: 50%;
+  margin-bottom: 30px;
+}
+
+.tab-up h3{
+  padding-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.tab-left{
+  height: 100%;
+  width: 70%;
+
+}
+
+.tab-right{
+  height: 100%;
+  width: 30%;
+  padding-top: 30px;
+  justify-content: center;
 }
